@@ -42,5 +42,5 @@ const mintInfo = await getMint(
 
 // Може не встигнути оновитися
 
-console.log(`Tocken supply is ${mintInfo.supply} on mint ${multisigMint}`);
+console.log(`Token supply is ${mintInfo.supply} on mint ${multisigMint}`);
 
