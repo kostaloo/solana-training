@@ -18,27 +18,29 @@ const multisigMint = new PublicKey("7GGcMnCBQX9vZCXNidVKkjRjrPXnoK9fM8KUEerDnV9F
 
 const multisigTokenAccount = new PublicKey("G3faxiDykEZtEpEp5GUXtvENe1M1XaczWnAhRJiqyPDF");
 
-// const transSig = await mintTo(
-//   connection,
-//   payer,
-//   multisigMint,
-//   multisigTokenAccount,
-//   multisigKey,
-//   1001,
-//   [
-//     signer1,
-//     signer2
-//   ]
-// )
+const transSig = await mintTo(
+  connection,
+  payer,
+  multisigMint,
+  multisigTokenAccount,
+  multisigKey,
+  1001,
+  [
+    signer1,
+    signer2
+  ]
+)
 
-// const link = getExplorerLink("transaction", transSig, "devnet");
+const link = getExplorerLink("transaction", transSig, "devnet");
 
-// console.log(`✅ Success! Check explorer: ${link}`);
+console.log(`✅ Success! Check explorer: ${link}`);
 
 const mintInfo = await getMint(
   connection,
   multisigMint
 )
 
-console.log(`✅ Success! Minted ${mintInfo.supply} token on mint ${multisigMint}`);
+// Може не встигнути оновитися
+
+console.log(`Tocken supply is ${mintInfo.supply} on mint ${multisigMint}`);
 

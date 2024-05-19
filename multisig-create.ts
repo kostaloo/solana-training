@@ -25,10 +25,6 @@ const multisigKey = await createMultisig(
 
 console.log(`Created 2/2 multisig ${multisigKey.toBase58()}`);
 
-const link = getExplorerLink(
-  "address",
-  multisigKey.toBase58(),
-  "devnet"
-);
+const link = getExplorerLink("address", multisigKey.toBase58(), "devnet");
 
 console.log(`✅ Check explorer: ${link}`);
