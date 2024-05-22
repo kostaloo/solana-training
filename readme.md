@@ -1,6 +1,6 @@
 # Лаби Solana Bootcamp
 
-# Завдання на вівторок, 2024-05-21
+# Урок 5, додаткові завдання
 
 ### Частина 1
 
@@ -46,3 +46,19 @@ AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 https://explorer.solana.com/tx/4WHUika65549c7VTBHDwS51YKkzSR2SyYaDUgGSgWNJnRwSBC84HeYoK1EsqMci392AUKFo1YKiM8ow6s5hcRVAU?cluster=devnet
 
 *(Якщо довго вовтузитись між create та receive то буде Transaction simulation failed: Blockhash not found)*
+
+# Урок 6, лаби
+
+Виконувались для навчального токену
+https://explorer.solana.com/address/GrcM8n7cxqEiXa2QxYZSk9sr2RT73X9a8fScjZbNo6t5/metadata?cluster=devnet
+
+**create-token-metadata**
+Створив Метаплекс метадата екаунт, записав до URI картинку яку залив на Pinata
+https://harlequin-raw-reptile-458.mypinata.cloud/ipfs/Qmcfn58UTMCktsMgNj3cAs6HKHVxus6KxJH86rvrAnbHCB
+
+Але це не норм, тому що в URI експлорер очікує на JSON метадату з атрибутами токену/NFT, тому далі
+
+**token-metadata-update**
+За методами ліби @metaplex-foundation/js оновив метадата URI, вказавши JSON файл також залитий на Pinata
+https://harlequin-raw-reptile-458.mypinata.cloud/ipfs/QmQ1cgjQmVPNHPamtnwTQ6CXsJRy1MtaW6vfA6kJ4qMbce
+Експлорер успішно оновив картинку з атрибуту image JSON метадати
