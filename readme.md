@@ -47,6 +47,22 @@ https://explorer.solana.com/tx/4WHUika65549c7VTBHDwS51YKkzSR2SyYaDUgGSgWNJnRwSBC
 
 *(Якщо довго вовтузитись між create та receive то буде Transaction simulation failed: Blockhash not found)*
 
+### Частина 3
+
+*Durable nonce transactions*
+
+**send-token-nonce-create**
+Створив Nonce account
+https://explorer.solana.com/address/Hv27UpKS9RtcjhmyzEZeLojBNh4V5JQQkxsbfbn8uwER?cluster=devnet
+
+Створив підписану хешовану Nonce транзу
+AUOg+5zzZLb+S6XHNVtfLeCZAuqVNst89NufK094ZZKTqwtshQT5onFMNfOF4jfrOiCFJ7mL6/wZeGgvvvZoawcBAAMHBNX+5sVXqh71+pIINty+07jImgM1pBrLTAbxj4IBl1NLWjP7wT/F+ZPInSllOimkkkr9kI+3Fp/bkckMhmqH2N+OGCSEaJsg0WlFRLbcf42U9bU3fkUnDdvlBoPNlep++1AH3ZeecvEQ/KymltjlnQz+C6BW4xVrJUQgtBcsXtIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAan1RcZLFaO4IqEX3PSl4jPA1wxRbIas0TYBi6pQAAABt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKmuldOMpIoueTjKu76DLv6Z5tGFKOZNc+j2HBawYdLKqAIEAwMFAAQEAAAABgMCAQAJAxIAAAAAAAAA
+
+**send-token-nonce-receive**
+Через деякий тривалий час пробуємо виконати транзу з хеша
+Баланс отримувача успішно поповнено на 18 токенів
+https://explorer.solana.com/tx/2MRXGsMMB5YWGSUDFSMFvrCad3j8B5WfQnT2jXM8ixBsfR73NVvsjU6MzSCerPTnRXktU2jKriddw56BxUYTHdYr?cluster=devnet
+
 # Урок 6, лаби
 
 Виконувались для навчального токену
