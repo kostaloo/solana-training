@@ -17,14 +17,14 @@ https://explorer.solana.com/address/KstbtPJMBASgrjFQ9stPHfeQToYNwf4SrNZkMj1PmqL?
 *send-sol.ts*  
 https://explorer.solana.com/tx/4sfCBwReyFXvhyj9KfgCrdgM4PKe82ZYwAS8kFdgAyqjhX1jzGXctePntih4Jtk7L7ndHB3KKiuBzieJhwLSd5Nn?cluster=devnet
 
-# Урок 5. Створіть token mint і викарбуйте власні токени
+## Урок 5. Створіть token mint і викарбуйте власні токени
 
 *create-token-mint.ts.ts  
 create-token-account.ts  
 mint-tokens.ts*  
 https://explorer.solana.com/address/GrcM8n7cxqEiXa2QxYZSk9sr2RT73X9a8fScjZbNo6t5?cluster=devnet
 
-# Урок 5. Додаткові завдання
+## Урок 5. Додаткові завдання
 
 ### Частина 1
 
@@ -66,7 +66,7 @@ https://explorer.solana.com/tx/4WHUika65549c7VTBHDwS51YKkzSR2SyYaDUgGSgWNJnRwSBC
 
 **Durable nonce transactions**
 
-**send-token-nonce-create.ts*  
+*send-token-nonce-create.ts*  
 Створив Nonce account  
 https://explorer.solana.com/address/Hv27UpKS9RtcjhmyzEZeLojBNh4V5JQQkxsbfbn8uwER?cluster=devnet
 
@@ -78,7 +78,7 @@ AUOg+5zzZLb+S6XHNVtfLeCZAuqVNst89NufK094ZZKTqwtshQT5onFMNfOF4jfrOiCFJ7mL6/wZeGgv
 Баланс отримувача успішно поповнено на 18 токенів  
 https://explorer.solana.com/tx/2MRXGsMMB5YWGSUDFSMFvrCad3j8B5WfQnT2jXM8ixBsfR73NVvsjU6MzSCerPTnRXktU2jKriddw56BxUYTHdYr?cluster=devnet
 
-# Урок 6. Створіть метадату токена
+## Урок 6. Створіть метадату токена
 
 Виконувались для навчального токену  
 https://explorer.solana.com/address/GrcM8n7cxqEiXa2QxYZSk9sr2RT73X9a8fScjZbNo6t5/metadata?cluster=devnet
