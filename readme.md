@@ -10,6 +10,7 @@ https://explorer.solana.com/address/KstbtPJMBASgrjFQ9stPHfeQToYNwf4SrNZkMj1PmqL?
 
 *faucet.ts*  
 *check-balance.ts*  
+
 ![image](https://github.com/kostaloo/solana-training/assets/22592677/1caff9c5-473e-49b7-9703-9d353d71a78e)
 
 ## Урок 4. Операції та відправлення SOL
@@ -98,6 +99,10 @@ https://harlequin-raw-reptile-458.mypinata.cloud/ipfs/QmQ1cgjQmVPNHPamtnwTQ6CXsJ
 
 *https://github.com/kostaloo/favorites*
 
+![image](https://github.com/kostaloo/solana-training/assets/22592677/c1846bee-192e-4945-b775-334b4d832045)
+
 ## Урок 8. Використання Anchor з токенами
 
 *https://github.com/kostaloo/escrow*
+
+![image](https://github.com/kostaloo/solana-training/assets/22592677/17bb4259-764d-4794-bad2-92797467f15a)
