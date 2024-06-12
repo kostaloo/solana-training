@@ -93,3 +93,11 @@ https://harlequin-raw-reptile-458.mypinata.cloud/ipfs/Qmcfn58UTMCktsMgNj3cAs6HKH
 За методами ліби @metaplex-foundation/js оновив метадата URI, вказавши JSON файл також залитий на Pinata  
 https://harlequin-raw-reptile-458.mypinata.cloud/ipfs/QmQ1cgjQmVPNHPamtnwTQ6CXsJRy1MtaW6vfA6kJ4qMbce  
 Експлорер успішно оновив картинку з атрибуту image JSON метадати
+
+## Урок 7. Onchain програмування
+
+*https://github.com/kostaloo/favorites*
+
+## Урок 8. Використання Anchor з токенами
+
+*https://github.com/kostaloo/escrow*
